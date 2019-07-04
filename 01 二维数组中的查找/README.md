@@ -24,8 +24,10 @@ public class Solution {
         }
         int rows = array.length;
         int cols = array[0].length;
+        // 设置右上角的数
         int r = 0;
         int c = cols - 1;
+        
         while (r <= rows - 1 && c >= 0) {
             if (target == array[r][c]) {
                 return true;
