@@ -16,7 +16,7 @@ public class Solution{
 	}
 
 	public static void main(String[] args) {
-		offer07 offer = new offer07();
-		System.out.println(offer.Fibonacci(0));
+		Solution s = new Solution();
+		System.out.println(s.Fibonacci(0));
 	}
 }
